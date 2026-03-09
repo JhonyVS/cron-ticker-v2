@@ -34,9 +34,17 @@ const divide = (a, b) => {
     return a / b;
 };
 
+const sum = (a, b) => {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        throw new Error('Los argumentos deben ser números');
+    }
+    return a + b;
+};
+
 module.exports = {
     multiply,
     isEven,
     getGreeting,
-    divide
+    divide,
+    sum
 };
