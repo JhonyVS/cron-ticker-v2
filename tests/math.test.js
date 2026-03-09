@@ -71,7 +71,7 @@ describe('divide', () => {
 describe('sum', () => {
 
     test('debe sumar dos números positivos', () => {
-        expect(sum(3, 4)).toBe(99); // BUG intencional: resultado incorrecto
+        expect(sum(3, 4)).toBe(7);
     });
 
     test('debe sumar con número negativo', () => {
